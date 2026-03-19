@@ -13,7 +13,7 @@
 
 Before running the script, you'll need:
 
-1.  **Python 3.9+**
+1.  **Python >= 3.9, < 3.12** (Important: `coqui-tts` has compatibility issues with Python 3.12+)
 2.  **FFmpeg**: Required by `pydub` for MP3 conversion.
     - [Download FFmpeg](https://ffmpeg.org/download.html)
     - Ensure `ffmpeg` is in your system PATH.
